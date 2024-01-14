@@ -3,7 +3,10 @@ guid: 84f65cf5732912f44b06a4c92adfb4b8
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - rotator: {fileID: 919132149155446097, guid: 741304eabdb13ac42ba64bc491535ac1,
+      type: 3}
+  - leftController: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

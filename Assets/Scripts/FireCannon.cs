@@ -8,10 +8,11 @@ public class FireCannon : MonoBehaviour
     public Rigidbody cannonBallPrefab;
     public Transform cannonEnd;
     public float fireSpeed;
+    private XRSimpleInteractable interactable;
     // Start is called before the first frame update
     void Start()
     {
-        XRSimpleInteractable interactable = GetComponent<XRSimpleInteractable>();
+        interactable = GetComponent<XRSimpleInteractable>();
         interactable.selectEntered.AddListener(OnSelectEnter);
     }
 
