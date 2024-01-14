@@ -16575,6 +16575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5806971428872728043}
+  - component: {fileID: 8540439351310612686}
   - component: {fileID: 8540439351310612680}
   - component: {fileID: 7398601586612089321}
   - component: {fileID: 8540439351310612681}
@@ -16785,3 +16786,19 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8540439351310612686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7396654157185885132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84f65cf5732912f44b06a4c92adfb4b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotator: {fileID: 919132147834679750}
+  leftController: {fileID: 1903176852}
+  rotateSpeed: 1
+  thresholdAngle: 0.03
