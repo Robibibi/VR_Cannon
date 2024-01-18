@@ -474,3 +474,8 @@ FodyWeavers.xsd
 #Too big
 Library/ArtifactDB
 Library/PackageCache/com.unity.burst@1.8.11/.Runtime/libburst-llvm-15.dylib
+
+# XR Inputs (personal)
+XRI Default Input Actions.cs
+XRI Default Input Actions.inputactions
+XR Device Simulator Controls.inputactions
